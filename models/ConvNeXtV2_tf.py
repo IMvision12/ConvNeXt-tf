@@ -152,6 +152,58 @@ def ConvNeXt(
     return keras.Model(inputs, outputs)
 
 
+def ConvNeXt_atto(input_shape, num_classes=1000, drop_path_rate=0.0, layer_scale_init_value=1e-6):
+    model = ConvNeXt(
+        drop_path_rate=drop_path_rate,
+        layer_scale_init_value=layer_scale_init_value,
+        num_classes=num_classes,
+        input_shape=input_shape,
+        depths=MODEL_CONFIGS["atto"]["depths"],
+        dims=MODEL_CONFIGS["atto"]["dim"],
+    )
+
+    return model
+
+
+def ConvNeXt_femto(input_shape, num_classes=1000, drop_path_rate=0.0, layer_scale_init_value=1e-6):
+    model = ConvNeXt(
+        drop_path_rate=drop_path_rate,
+        layer_scale_init_value=layer_scale_init_value,
+        num_classes=num_classes,
+        input_shape=input_shape,
+        depths=MODEL_CONFIGS["femto"]["depths"],
+        dims=MODEL_CONFIGS["femto"]["dim"],
+    )
+
+    return model
+
+
+def ConvNeXt_pico(input_shape, num_classes=1000, drop_path_rate=0.0, layer_scale_init_value=1e-6):
+    model = ConvNeXt(
+        drop_path_rate=drop_path_rate,
+        layer_scale_init_value=layer_scale_init_value,
+        num_classes=num_classes,
+        input_shape=input_shape,
+        depths=MODEL_CONFIGS["pico"]["depths"],
+        dims=MODEL_CONFIGS["pico"]["dim"],
+    )
+
+    return model
+
+
+def ConvNeXt_nano(input_shape, num_classes=1000, drop_path_rate=0.0, layer_scale_init_value=1e-6):
+    model = ConvNeXt(
+        drop_path_rate=drop_path_rate,
+        layer_scale_init_value=layer_scale_init_value,
+        num_classes=num_classes,
+        input_shape=input_shape,
+        depths=MODEL_CONFIGS["nano"]["depths"],
+        dims=MODEL_CONFIGS["nano"]["dim"],
+    )
+
+    return model
+
+
 def ConvNeXt_tiny(input_shape, num_classes=1000, drop_path_rate=0.0, layer_scale_init_value=1e-6):
     model = ConvNeXt(
         drop_path_rate=drop_path_rate,
@@ -163,7 +215,6 @@ def ConvNeXt_tiny(input_shape, num_classes=1000, drop_path_rate=0.0, layer_scale
     )
 
     return model
-
 
 def ConvNeXt_small(input_shape, num_classes=1000, drop_path_rate=0.0, layer_scale_init_value=1e-6):
     model = ConvNeXt(
@@ -177,7 +228,6 @@ def ConvNeXt_small(input_shape, num_classes=1000, drop_path_rate=0.0, layer_scal
 
     return model
 
-
 def ConvNeXt_base(input_shape, num_classes=1000, drop_path_rate=0.0, layer_scale_init_value=1e-6):
     model = ConvNeXt(
         drop_path_rate=drop_path_rate,
@@ -189,7 +239,6 @@ def ConvNeXt_base(input_shape, num_classes=1000, drop_path_rate=0.0, layer_scale
     )
 
     return model
-
 
 def ConvNeXt_large(input_shape, num_classes=1000, drop_path_rate=0.0, layer_scale_init_value=1e-6):
     model = ConvNeXt(
@@ -203,15 +252,14 @@ def ConvNeXt_large(input_shape, num_classes=1000, drop_path_rate=0.0, layer_scal
 
     return model
 
-
-def ConvNeXt_xlarge(input_shape, num_classes=1000, drop_path_rate=0.0, layer_scale_init_value=1e-6):
+def ConvNeXt_huge(input_shape, num_classes=1000, drop_path_rate=0.0, layer_scale_init_value=1e-6):
     model = ConvNeXt(
         drop_path_rate=drop_path_rate,
         layer_scale_init_value=layer_scale_init_value,
         num_classes=num_classes,
         input_shape=input_shape,
-        depths=MODEL_CONFIGS["xlarge"]["depths"],
-        dims=MODEL_CONFIGS["xlarge"]["dim"],
+        depths=MODEL_CONFIGS["huge"]["depths"],
+        dims=MODEL_CONFIGS["huge"]["dim"],
     )
 
     return model
