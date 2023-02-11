@@ -4,7 +4,12 @@ This repository is about an implementation of the research paper "A ConvNet of t
 
 <p align="center">
 <img src="https://github.com/IMvision12/ConvNeXt-tf/blob/main/img/Capture.PNG"
-class="center">
+class="right">
+</p>
+
+<p align="center">
+<img src="https://github.com/facebookresearch/ConvNeXt-V2/blob/main/figures/model_scaling.png"
+class="left">
 </p>
 
 # All model configurations
