@@ -1,4 +1,4 @@
-# ConvNeXt
+# ConvNeXt and ConvNeXtV2
 
 This repository is about an implementation of the research paper "A ConvNet of the 2020s" using `Tensorflow` published by Zhuang Liu, Hanzi Mao, Chao-Yuan Wu, Christoph Feichtenhofer, Trevor Darrell, Saining Xie, Facebook AI Research (FAIR), UC Berkeley on the 10 January 2022.
 
