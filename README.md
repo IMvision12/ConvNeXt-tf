@@ -7,10 +7,10 @@ This repository is about an implementation of the research paper "A ConvNet of t
 class="right">
 </p>
 
-# ConvNeXtV1 and ConvNeXtV2 block design:
+### ConvNeXtV1 and ConvNeXtV2 block design:
 
 <p align="center">
-<img src="https://github.com/IMvision12/ConvNeXt-tf/blob/main/img/Capture.PNG" width=50% height=50%>
+<img src="https://github.com/IMvision12/ConvNeXt-tf/blob/main/img/Capture.PNG" width=40% height=40%>
 class="right">
 </p>
 
