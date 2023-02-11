@@ -10,7 +10,7 @@ class="right">
 ### ConvNeXtV1 and ConvNeXtV2 block design:
 
 <p align="center">
-<img src="https://github.com/IMvision12/ConvNeXt-tf/blob/main/img/Capture.PNG" width=40% height=40%>
+<img src="https://github.com/IMvision12/ConvNeXt-tf/blob/main/img/Capture.PNG" width=40% height=40%
 class="right">
 </p>
 
@@ -19,4 +19,4 @@ class="right">
 [1] ConvNeXt paper: https://arxiv.org/abs/2201.03545
 [2] ConvNeXtV2 paper: https://arxiv.org/abs/2301.00808
 [3] Official ConvNeXt code: https://github.com/facebookresearch/ConvNeXt
-[4] Official ConvNeXtV2 code: https://github.com/facebookresearch/ConvNeXt-V2/blob/main/models/convnextv2.py
+[4] Official ConvNeXtV2 code: https://github.com/facebookresearch/ConvNeXt-V2
