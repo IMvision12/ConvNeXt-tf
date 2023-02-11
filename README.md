@@ -9,8 +9,10 @@ class="right">
 
 # ConvNeXtV1 and ConvNeXtV2 block design:
 
-<img src="https://github.com/IMvision12/ConvNeXt-tf/blob/main/img/Capture.PNG" width=40% height=40%>
-
+<p align="center">
+<img src="https://github.com/IMvision12/ConvNeXt-tf/blob/main/img/Capture.PNG" width=50% height=50%>
+class="right">
+</p>
 
 # References
 
