@@ -2,11 +2,7 @@
 
 This repository is about an implementation of the research paper "A ConvNet of the 2020s" and "ConvNeXt V2: Co-designing and Scaling ConvNets with Masked Autoencoders" using `Tensorflow`.
 
-<p align="center">
-<img src="https://github.com/IMvision12/ConvNeXt-tf/blob/main/img/Capture.PNG"
-class="right">
-</p>
-
+<img src="https://github.com/IMvision12/ConvNeXt-tf/blob/main/img/Capture.PNG" width=50% height=50% align="right">
 <img src="https://github.com/IMvision12/ConvNeXt-tf/blob/main/img/model_scaling.png" width=50% height=50% align="left">
 
 
