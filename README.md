@@ -1,3 +1,8 @@
+### To-do
+[x] Add convnextv1 and v2 pytorch
+[x] convert pytorch to tensorflow
+[] weight conversion
+
 # ConvNeXt and ConvNeXtV2
 
 This repository is about an implementation of the research paper "A ConvNet of the 2020s" and "ConvNeXt V2: Co-designing and Scaling ConvNets with Masked Autoencoders" using `Tensorflow`.
