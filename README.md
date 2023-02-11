@@ -8,7 +8,7 @@ This repository is about an implementation of the research paper "A ConvNet of t
 
 # All model configurations
 
-<img src="https://github.com/IMvision12/ConvNeXt-tf/blob/main/img/configurations.PNG"
+<img src="https://github.com/IMvision12/ConvNeXt-tf/blob/main/img/configurations.PNG">
 
 
 # References
