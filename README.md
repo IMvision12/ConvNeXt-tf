@@ -17,5 +17,6 @@ class="center">
 # References
 
 [1] ConvNeXt paper: https://arxiv.org/abs/2201.03545
-
-[2] Official ConvNeXt code: https://github.com/facebookresearch/ConvNeXt
+[2] ConvNeXtV2 paper: https://arxiv.org/abs/2301.00808
+[3] Official ConvNeXt code: https://github.com/facebookresearch/ConvNeXt
+[4] Official ConvNeXtV2 code: https://github.com/facebookresearch/ConvNeXt-V2/blob/main/models/convnextv2.py
