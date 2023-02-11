@@ -7,7 +7,7 @@ This repository is about an implementation of the research paper "A ConvNet of t
 class="right">
 </p>
 
-![image](https://github.com/facebookresearch/ConvNeXtV2/blob/main/figures/model_scaling.png)
+![image](https://github.com/IMvision12/ConvNeXt-tf/blob/main/img/model_scaling.png)
 
 
 # All model configurations
