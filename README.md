@@ -6,11 +6,6 @@ This repository is about an implementation of the research paper "A ConvNet of t
 <img src="https://github.com/IMvision12/ConvNeXt-tf/blob/main/img/model_scaling.png" width=50% height=50% align="left">
 
 
-# All model configurations
-
-<img src="https://github.com/IMvision12/ConvNeXt-tf/blob/main/img/configurations.PNG">
-
-
 # References
 
 [1] ConvNeXt paper: https://arxiv.org/abs/2201.03545
