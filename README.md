@@ -1,7 +1,7 @@
 ### To-do
-[x] Add convnextv1 and v2 pytorch
-[x] convert pytorch to tensorflow
-[] weight conversion
+- [x] Add convnextv1 and v2 pytorch
+- [x] convert pytorch to tensorflow
+- [] weight conversion
 
 # ConvNeXt and ConvNeXtV2
 
